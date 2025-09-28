@@ -1,11 +1,11 @@
 # algorithm-issue
 
 ## Solution Approach
-
+   
 We use the sliding window technique with two pointers (`left` and `right`) to maintain a window in string `s`. The algorithm works as follows:
 
 1. **Count Characters in t:**
-	- Use a hash map to count the frequency of each character in `t`.
+	- Use  a hash map to count the frequency of each character in `t`.
 
 2. **Expand the Window:**
 	- Move the `right` pointer to expand the window, adding characters from `s` to another hash map that tracks the window's character counts.
