@@ -9,7 +9,7 @@ We use the sliding window technique with two pointers (`left` and `right`) to ma
 
 2. **Expand the Window:**
 	- Move the `right` pointer to expand the window, adding characters from `s` to another hash map that tracks the window's character counts.
-	- When a character's count in the window matches the required count in `t`, increment a `formed` counter.
+	- When a character's count in the window matches the required count in `t`, increment a `formed` counter. 
 
 3. **Contract the Window:**
 	- When all required characters are present in the window (`formed == required`), move the `left` pointer to shrink the window as much as possible while still containing all characters from `t`.
